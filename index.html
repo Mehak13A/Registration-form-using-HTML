@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="UTF-8">
+  <head>
+    <title>Registration Form</title>
+  </head>
+  
+  <body>
+    <center><table border="1px" cellpadding="5px" cellspacing="1px"></center>
+      <tr>
+        <th colspan="4"><center><b>Registration Form</b></center><br></th>
+      </tr>
+      
+      <tr>
+        <td>Student Name</td>
+        <td>
+          <form>
+            <input type="text" name="fname" placeholder="First Name">
+          </form>
+        </td>
+        
+        <td>
+          <form>
+            <input type="text" name="mname" placeholder="Middle Name">
+          </form>
+        </td>
+        
+        <td>
+          <form>
+            <input type="text" name="lname" placeholder="Last Name">
+          </form>
+        </td>
+      </tr>
+      
+      <tr>
+        <td>Father's Name</td>
+        <td>
+          <form>
+            <input type="text" name="fathername" placeholder="Enter your father's Name">
+          </form>
+        </td>
+        
+        <td>Mother's Name</td>
+        <td>
+          <form>
+            <input type="text" name="mothername" placeholder="Enter your Mother's Name">
+          </form>
+        </td>
+      </tr>
+      
+      <tr>
+        <td>Date of Birth</td>
+        <td>
+          <form>
+            <input type="date" name="dob">
+          </form>
+        </td>
+        
+        <td>Gender</td>
+        <td>
+          <form>
+            Male <input type="radio" id="male" name="g" value="m">
+            
+            Female <input type="radio" id="female" name="g" value="f">
+          </form>
+        </td>
+      </tr>
+      
+      <tr>
+        <td>Category</td>
+        <td>
+          <form>
+            Gen <input type="radio" id="gen" name="category" value="g">
+            
+            OBC <input type="radio" id="obc" name="category" value="o">
+            
+            SC/ST <input type="radio" id="sc" name="category" value="s">
+          </form>
+        </td>
+        
+        <td>Handicapped</td>
+        <td>
+          <form>
+            Yes <input type="radio" id="yes" name="pyd" value="y">
+            
+            No <input type="radio" id="no" name="pyd" value="n">
+          </form>
+        </td>
+      </tr>
+      
+      <tr>
+        <td>Ex-Serviceman</td>
+        <td>
+          <form>
+            Yes <input type="radio" id="yes1" name="service" value="y1">
+            
+            No <input type="radio" id="no1" name="service" value="n1">
+          </form>
+        </td>
+        
+        <td>EWS</td>
+        <td>
+          <form>
+            Yes <input type="radio" id="yes2" name="ews" value="y2">
+            
+            No <input type="radio" id="no2" name="ews" value="n2">
+          </form>
+        </td>
+      </tr>
+      
+      <tr>
+        <td>Email ID</td>
+        <td>
+          <form>
+            <input type="email" name="email">
+          </form>
+        </td>
+        
+        <td>Mobile No.</td>
+        <td>
+          <form>
+            <input type="tel" name="mobileno">
+          </form>
+        </td>
+      </tr>
+      
+      <tr>
+        <td>State</td>
+        <td>
+          <form>
+            <select name="state" id="states">
+              <option>Select any One</option>
+              <option value="mh">Maharashtra</option>
+              <option value="mp">Madhya Pradesh</option>
+              <option value="up">Uttar Pradesh</option>
+              <option value="dl">Delhi</option>
+              <option value="kl">Kerala</option>
+              <option value="tln">Tamil Nadu</option>
+              <option value="pb">Punjab</option>
+              <option value="gj">Gujarat</option>
+              <option value="others">Others</option>
+            </select>
+          </form>
+        </td>
+        
+        <td>City</td>
+        <td>
+          <form>
+            <select name="city" id="cities">
+              <option>Select any One</option>
+              <option value="nasik">Nasik</option>
+              <option value="mumbai">Mumbai</option>
+              <option value="pune">Pune</option>
+              <option value="bpl">Bhopal</option>
+              <option value="ind">Indore</option>
+              <option value="tvprm">Thiruvananthapuram</option>
+              <option value="oth">Others</option>
+            </select>
+          </form>
+        </td>
+      </tr>
+      
+      <tr>
+        <td>Upload Photo</td>
+        <td>
+          <form>
+            <input type="file" id="myfile" name="Choose file">
+          </form>
+        </td>
+        
+        <td>Upload Signature</td>
+        <td>
+          <form>
+            <input type="file" id="myfile2" name="Choose file">
+          </form>
+        </td>
+      </tr>
+      
+      <tr>
+        <td></td>
+        <td colspan="3">
+          <form>
+            <center><input type="submit" name="submit" value="Submit"></center>
+          </form>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
